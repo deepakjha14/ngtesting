@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomEmailInputComponent } from './custom-email-input/custom-email-input.component';
 import { FormsModule } from '@angular/forms';
+import {IdCardModule} from 'id-card';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    IdCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -25,6 +25,10 @@
       "my-lib": [
         "dist/my-lib/my-lib",
         "dist/my-lib"
+      ],
+      "id-card": [
+        "dist/id-card/id-card",
+        "dist/id-card"
       ]
     }
   },
